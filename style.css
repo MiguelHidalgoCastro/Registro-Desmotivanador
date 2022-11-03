@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('fondo.jpg');
+}
+img{
+	display: block;
+	margin: 0 auto 10px;
+}
+div#cuantosUsuarios{
+	margin-bottom: 10px;
+}
+div#container{
+	width: 400px;
+	background: #24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	overflow: hidden;
+	box-shadow: 7px 13px 37px #000;
+
+}
+section#section{
+	display: none;
+}
+
+label{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+input, select{
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-size: 18px;
+	color: white;
+}
+select{
+	color: grey;
+}
+
+button{
+	width: 45%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	font-size: 16px;
+}
+button#btnAceptar{
+	float: left;
+}
+button#btnCancelar{
+	float: right;
+}
+div#mensaje p{
+	height: 40px;
+	text-align: left;
+	font-size: 18px;
+	line-height: 40px;
+}
+img#menor{
+	display:none;
+	margin-top:50px;
+}
+
+/*----- Estilos para el drag & drop ------*/
+div#version5{
+	width: 100%;
+	margin-top: 50px;
+	display: flow-root;
+}
+
+div#columnaUno{
+	background-color: lightblue;
+	width: 50%;
+	height: 200px;
+	float: left;
+}
+div#columnaDos{
+	background: lightcyan;
+	width: 50%;
+	height: 200px;
+	float: right;
+
+}
+
+.imagenCandance{
+	width: 50%;
+	float: left;
+}

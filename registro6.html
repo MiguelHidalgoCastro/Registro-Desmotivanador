@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang=es dir=ltr>
+
+<head>
+	<meta charset=utf-8 />
+	<meta http-equiv=X-UA-Compatible content='IE=edge' />
+	<meta name=viewport content='width=device-width, initial-scale=1' />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Registro Desmotivanador V6</title>
+</head>
+
+<body>
+	<div id="container">
+		<img id="doctor" src="imagen.jfif" alt="">
+		
+		<div id="cuantosUsuarios"></div>
+		<section id="section">
+			<form id="form-registro">
+				<label for="correo">Correo:</label>
+				<input type="mail" name="correo" id="correo" placeholder="example@email.es">
+				<label for="pass">Constraseña</label>
+				<input type="password" name="pass" id="pass" placeholder="Password">
+				<label for="comunidad">Comunidad</label>
+				<!-- Version 2 -->
+				<select name="comunidad" id="comunidad">
+					<option value="0">Escoja una de estas opciones</option>
+				</select>
+				<label for="provincia">Provincia:</label>
+				<select name="provincia" id="provincia">
+					<option value="0">Escoja una de estas opciones</option>
+				</select>
+				<!-- version 3 -->
+				<label for="fecha">Fecha nacimiento</label>
+				<input type="date" name="fecha" id="fecha">
+				<img id="menor" src="perry.jpg" alt="">
+				<button id="btnAceptar">ACEPTAR</button>
+				<button id="btnCancelar">CANCELAR</button>
+			</form>
+			<div id="mensaje">
+				<p id="mensaje-confirmacion"></p>
+			</div>
+
+		<div id="version5">	
+			<div id="columnaUno">
+				<img class="imagenCandance" id="imagenUno" src="candanceUno.jpg">
+				<img class="imagenCandance" id="imagenDos" src="candanceDos.jpg">
+				<img class="imagenCandance" id="imagenTres" src="candanceTres.jpg">
+				<img class="imagenCandance" id="imagenCuatro" src="candanceCuatro.jpg">
+			</div>
+			<div id="columnaDos">
+			
+			</div>
+		</div>
+		</section>
+		
+	</div>
+
+	
+	<script type=module src=registro6.js></script>
+	<script type=module src=indexedDB.js></script>
+</body>
+
+</html>
