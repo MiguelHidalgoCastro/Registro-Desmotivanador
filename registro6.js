@@ -85,7 +85,7 @@ function leerFecha(){
 }
 
 function cambiarFotoPerry(){
-	if(document.getElementById("doctor").src == "http://localhost/dwec/Registro%20Desmotivanador/v6/imagen.jfif")
+	if(document.getElementById("doctor").src == "imagen.jfif")
 		document.getElementById("doctor").src = "losdos.jpg"
 	else
 		document.getElementById("doctor").src = "imagen.jfif"
